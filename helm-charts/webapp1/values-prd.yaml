@@ -1,0 +1,5 @@
+namespace: prd
+
+configMap:
+  data:
+    customHeader: 'Welcome to prd!!'

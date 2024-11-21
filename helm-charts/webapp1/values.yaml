@@ -1,0 +1,13 @@
+appName: myhelmapp
+namespace: default
+
+configMap:
+  name: myconfigmapv1.0
+  data:
+    customHeader: 'customize with a configmap!'
+    bgColor: '#12181b'
+    fontColor: '#FFFFFF'
+
+image:
+  name: devopsjourney1/mywebapp
+  tag: latest
